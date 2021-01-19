@@ -1,0 +1,168 @@
+mkdir first*
+Directory with name 'first' was made
+mkdir second*
+Directory with name 'second' was made
+mkdir third*
+Directory with name 'third' was made
+mkdir fourth*
+Directory with name 'fourth' was made
+mkdir fifth*
+Directory with name 'fifth' was made
+mkfile 1stFILE*
+The file with name '1stFILE' was made
+mkfile 2ndFILE*
+The file with name '2ndFILE' was made
+ls*
+1stFILE 
+2ndFILE 
+fifth/  
+first/  
+fourth/  
+second/  
+third/  
+chdir first*
+cwd has been changed to 'first'
+mkdir rockets1*
+Directory with name 'rockets1' was made
+mkdir rockets2*
+Directory with name 'rockets2' was made
+mkfile rockets3*
+The file with name 'rockets3' was made
+chdir ..*
+cwd has been changed to '/'
+ls*
+1stFILE 
+2ndFILE 
+fifth/  
+first/  
+fourth/  
+second/  
+third/  
+chdir second*
+cwd has been changed to 'second'
+mkdir cars*
+Directory with name 'cars' was made
+chdir cars*
+cwd has been changed to 'cars'
+mkfile cars1*
+The file with name 'cars1' was made
+mkfile car2*
+The file with name 'car2' was made
+mkdir boats*
+Directory with name 'boats' was made
+chdir boats*
+cwd has been changed to 'boats'
+mkfile boat1*
+The file with name 'boat1' was made
+mkfile boat2*
+The file with name 'boat2' was made
+mkfile boat3*
+The file with name 'boat3' was made
+pwd*
+/second/cars/boats/
+chdir /third*
+cwd has been changed to 'third'
+mkdir computers*
+Directory with name 'computers' was made
+mkdir phones*
+Directory with name 'phones' was made
+mkfile electronics*
+The file with name 'electronics' was made
+chdir computers*
+cwd has been changed to 'computers'
+mkdir students*
+Directory with name 'students' was made
+mkdir windows*
+Directory with name 'windows' was made
+chdir students*
+cwd has been changed to 'students'
+mkdir a-f*
+Directory with name 'a-f' was made
+mkdir g-p*
+Directory with name 'g-p' was made
+mkdir q-z*
+Directory with name 'q-z' was made
+chdir ../..*
+cwd has been changed to 'third'
+lsr*
+computers/
+   students/
+      a-f/
+      g-p/
+      q-z/
+   windows/
+electronics
+phones/
+chdir /first/rockets1/*
+cwd has been changed to 'rockets1'
+mkdir windows*
+Directory with name 'windows' was made
+chdir friends*
+cwd could not be changed to 'friends', it was an invalid path
+chrdir windows*
+INVALID COMMAND!
+mkfile cars*
+The file with name 'cars' was made
+pwd*
+/first/rockets1/
+chdir ..*
+cwd has been changed to 'first'
+chdir .*
+cwd has been changed to 'first'
+ls*
+rockets1/  
+rockets2/  
+rockets3 
+chdir /third*
+cwd has been changed to 'third'
+mkfile inhere*
+The file with name 'inhere' was made
+mkfile stillhere*
+The file with name 'stillhere' was made
+chdir ..*
+cwd has been changed to '/'
+mkdir third*
+ERROR, the name: 'third' already exists in this cwd!
+chdir fourth*
+cwd has been changed to 'fourth'
+mkfile now*
+The file with name 'now' was made
+mkfile lastone*
+The file with name 'lastone' was made
+lsr*
+lastone
+now
+chdir /*
+cwd has been changed to '/'
+lsr*
+1stFILE
+2ndFILE
+fifth/
+first/
+   rockets1/
+      cars
+      windows/
+   rockets2/
+   rockets3
+fourth/
+   lastone
+   now
+second/
+   cars/
+      boats/
+         boat1
+         boat2
+         boat3
+      car2
+      cars1
+third/
+   computers/
+      students/
+         a-f/
+         g-p/
+         q-z/
+      windows/
+   electronics
+   inhere
+   phones/
+   stillhere

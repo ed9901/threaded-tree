@@ -1,0 +1,58 @@
+mkdir first
+mkdir second
+mkdir third
+mkdir fourth
+mkdir fifth
+mkfile 1stFILE
+mkfile 2ndFILE
+ls
+chdir first
+mkdir rockets1
+mkdir rockets2
+mkfile rockets3
+chdir ..
+ls
+chdir second
+mkdir cars
+chdir cars
+mkfile cars1
+mkfile car2
+mkdir boats
+chdir boats
+mkfile boat1
+mkfile boat2
+mkfile boat3
+pwd
+chdir /third
+mkdir computers
+mkdir phones
+mkfile electronics
+chdir computers
+mkdir students
+mkdir windows
+chdir students
+mkdir a-f
+mkdir g-p
+mkdir q-z
+chdir ../..
+lsr
+chdir /first/rockets1/
+mkdir windows
+chdir friends
+chrdir windows
+mkfile cars
+pwd
+chdir ..
+chdir .
+ls
+chdir /third
+mkfile inhere
+mkfile stillhere
+chdir ..
+mkdir third
+chdir fourth
+mkfile now
+mkfile lastone
+lsr
+chdir /
+lsr
